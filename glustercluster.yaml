@@ -1,0 +1,7 @@
+apiVersion: glustercluster.external-storage.k8s.io/v1
+kind: GlusterCluster
+metadata:
+  name: mycluster
+spec:
+  node: localhost
+    
